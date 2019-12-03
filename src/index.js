@@ -4,7 +4,7 @@ Chars();
 function Chars() {
   var node_table = document.getElementById("main_table");
 
-  for (var row = 0; row < 2; row++) {
+  for (var row = 0; row < 20; row++) {
     var node_tr = document.createElement("tr");
     node_table.appendChild(node_tr);
 
