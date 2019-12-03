@@ -1,10 +1,10 @@
-import "./styles.css";
+// import "./styles.css";
 
 Chars();
 function Chars() {
   var node_table = document.getElementById("main_table");
 
-  for (var row = 0; row < 9; row++) {
+  for (var row = 0; row < 2; row++) {
     var node_tr = document.createElement("tr");
     node_table.appendChild(node_tr);
 
@@ -56,5 +56,3 @@ function Chars() {
     node_tr.appendChild(node_td);
   }
 }
-
-$(".alert").alert();
